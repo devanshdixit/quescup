@@ -1,0 +1,32 @@
+.header {
+  color: #0d3344;
+  font-size: 56px;
+  margin: 40px 0px 40px 0px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.button{
+    background-color: #49a0eb;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    border-radius: .5rem;
+    margin-right: 1rem;
+    font-weight: 600;
+    font-family: Inter,sans-serif;
+    border: none;
+    min-width: 15rem;
+    padding: 1rem 2rem;
+    transition: all .5s ease;
+    outline: none;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  .header{
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,9 @@
+@media screen and (min-width: 800px)
+{
+.footercontainermain {
+    background-image: url(/images/footer-background.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+}
+}

@@ -1,0 +1,17 @@
+.headerlink{
+    color: #767d86;
+    letter-spacing: .08em;
+    padding-left: .3em;
+    padding-bottom: .2em;
+    transition-duration: .3s;
+    cursor: pointer;
+    position: relative;
+    font-family: Inter,sans-serif;
+    line-height: 24px;
+}
+
+.headerlink:hover{
+    color: black;
+    font-size: 18px;
+    transition-duration: .5s;
+}

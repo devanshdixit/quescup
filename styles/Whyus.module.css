@@ -1,0 +1,42 @@
+.header {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+}
+
+.hr{
+    margin-top: 1.2rem;
+    width: 96px;
+    background-color: #49a0eb;
+    border: 3px solid #49a0eb;
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subheading{
+    margin-top: 20px;
+    color: #49a0eb;
+    margin-bottom: .5rem;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5em;
+    font-family: Inter,sans-serif;
+}
+
+.para{
+    color:#767d86;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 700px) {
+  .header {
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .subheading{
+    font-weight: 400;
+    font-size: 20px;
+  }
+}
