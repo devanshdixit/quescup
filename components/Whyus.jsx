@@ -6,7 +6,7 @@ const Whyus = () => {
     <div className="container mt-4 pt-4 mb-4 pb-4">
       <h1 className={styles.header}>Why Quecup?</h1>
       <hr className={styles.hr} />
-      <div className="row mt-4 pt-4">
+      <div className="row ml-1 mr-1 mt-4 pt-4">
         <div className="col-md-4 mt-4">
           <div><img src="/images/whyus/beginner_friendly.svg" alt="" /></div>
           <div className={styles.subheading}>Info about campaigners</div>
@@ -32,7 +32,7 @@ const Whyus = () => {
           </p>
         </div>
       </div>
-      <div className="row mt-4 pt-4 mb-4 pb-4">
+      <div className="row ml-1 mr-1  mt-4 pt-4 mb-4 pb-4">
         <div className="col-md-4 mt-4">
           <div><img src="/images/whyus/people.svg" alt="" /></div>
           <div className={styles.subheading}>Dedicated Campaign Checkers</div>

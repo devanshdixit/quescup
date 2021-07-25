@@ -14,7 +14,7 @@ const Header = () => {
                     <div className={styles.headerlink}>Services</div>
                 </div>
                 <div className="col pt-4" style={{maxWidth:"120px"}}>
-                    <div className={styles.headerlink}>ContactUs</div>
+                    <div className={styles.headercontact}>ContactUs</div>
                 </div>
             </div>
         </Container>
