@@ -3,6 +3,10 @@ import { Col, Container, Nav, Navbar, Row } from "react-bootstrap"
 import styles from  '../styles/Header.module.css'
 
 const Header = () => {
+    function scrollto() {
+        const contact = window.document.getElementById("contact");
+        contact.scrollIntoView();
+      }
     return (
         <Container className="p-2 mt-2 pl-1 pr-1">
             <div className="row">
@@ -14,7 +18,7 @@ const Header = () => {
                     <div className={styles.headerlink}>Services</div>
                 </div>
                 <div className="col pt-4" style={{maxWidth:"120px"}}>
-                    <div className={styles.headercontact}>ContactUs</div>
+                    <div className={styles.headerlink} onClick={scrollto}>ContactUs</div>
                 </div>
             </div>
         </Container>

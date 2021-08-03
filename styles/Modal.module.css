@@ -1,0 +1,16 @@
+.header {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .hr{
+      margin-top: 1.2rem;
+      width: 96px;
+      background-color: #49a0eb;
+      border: 3px solid #49a0eb;
+      border-radius: 16px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  

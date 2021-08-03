@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Container } from "react-bootstrap";
 import Footer from "../components/Footer";
 import HowItWorks from "../components/Howitworks";
+import ModalScreen from "../components/modal";
 import Header from "../components/Navbar";
 import Slider from "../components/Slider";
 import Whyus from "../components/Whyus";
@@ -12,7 +13,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Home | Quescup</title>
+        <title>Fizcon</title>
         <meta name="description" content="Securing donors ny verify donation campaign" />
         <link rel="icon" href="/favicon.ico" />
         <meta charset="utf-8" />
@@ -22,6 +23,7 @@ export default function Home() {
       <Slider />
       <Whyus/>
       <HowItWorks/>
+      <ModalScreen/>
       <Footer/>
     </div>
   );
