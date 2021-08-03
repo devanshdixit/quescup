@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Fizcon</title>
+        <title>Home | Quescup</title>
         <meta name="description" content="Securing donors ny verify donation campaign" />
         <link rel="icon" href="/favicon.ico" />
         <meta charset="utf-8" />
