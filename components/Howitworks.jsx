@@ -3,7 +3,7 @@ import styles from "../styles/Howitworks.module.css"
 
 const HowItWorks = () => {
     return (
-        <div style={{ backgroundColor: "#FCFCFC" }}>
+        <div style={{ backgroundColor: "#FCFCFC" }} id="services">
             <div className="container mt-4 pt-4 mb-4 pb-4">
                 <h1 className={styles.header}>What we provide</h1>
                 <hr className={styles.hr} />

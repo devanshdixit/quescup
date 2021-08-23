@@ -201,17 +201,6 @@ export default function ModalScreen() {
                     <button className="btn btn-dark btn-block" onClick={handleSubmit} type="submit">{loading ? 'Uploading...' : "Submit"}</button>
                 </Modal.Footer>
             </Modal>
-            <ToastContainer
-                position="bottom-right"
-                autoClose={5000}
-                hideProgressBar={false}
-                newestOnTop={false}
-                closeOnClick
-                rtl={false}
-                pauseOnFocusLoss
-                draggable
-                pauseOnHover
-            />
         </section>
     );
 }

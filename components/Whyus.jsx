@@ -3,7 +3,7 @@ import styles from "../styles/Whyus.module.css"
 
 const Whyus = () => {
   return (
-    <div className="container mt-4 pt-4 mb-4 pb-4">
+    <div className="container mt-4 pt-4 mb-4 pb-4" id="about">
       <h1 className={styles.header}>Why Quecup?</h1>
       <hr className={styles.hr} />
       <div className="row ml-1 mr-1 mt-4 pt-4">

@@ -1,13 +1,10 @@
 import Head from "next/head";
-import Image from "next/image";
-import { Container } from "react-bootstrap";
 import Footer from "../components/Footer";
 import HowItWorks from "../components/Howitworks";
 import ModalScreen from "../components/modal";
 import Header from "../components/Navbar";
 import Slider from "../components/Slider";
 import Whyus from "../components/Whyus";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
