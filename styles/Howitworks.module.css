@@ -23,7 +23,15 @@
   line-height: 1.5em;
   font-family: Inter, sans-serif;
 }
-
+.heading {
+  margin-top: 20px;
+  color: #0d2235;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.5em;
+  font-family: Inter, sans-serif;
+}
 .para {
   color: #767d86;
   font-size: 16px;

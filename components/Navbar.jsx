@@ -16,9 +16,9 @@ const Header = () => {
                     <Nav className="me-auto">
                     </Nav>
                     <Nav className="ml-auto">
-                        <Nav.Link onClick={()=>scrollto("about")} className={styles.headerlink} style={{ paddingLeft: ".8em" }}>About</Nav.Link>
-                        <Nav.Link onClick={()=>scrollto("services")} className={styles.headerlink} style={{ paddingLeft: ".8em" }}>Services</Nav.Link>
-                        <Nav.Link onClick={()=>scrollto("contact")} className={styles.headerlink} style={{ paddingLeft: ".8em" }}>ContactUs</Nav.Link>
+                        <Nav.Link onClick={() => scrollto("about")} className={styles.headerlink} style={{ paddingLeft: ".8em" }}>About</Nav.Link>
+                        <Nav.Link onClick={() => scrollto("services")} className={styles.headerlink} style={{ paddingLeft: ".8em" }}>Services</Nav.Link>
+                        <Nav.Link onClick={() => scrollto("contact")} className={styles.headerlink} style={{ paddingLeft: ".8em" }}>ContactUs</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

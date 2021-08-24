@@ -1,0 +1,99 @@
+.header {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .hr {
+    margin-top: 1.2rem;
+    width: 96px;
+    background-color: #49a0eb;
+    border: 3px solid #49a0eb;
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .subheading {
+    margin-top: 20px;
+    color: #49a0eb;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5em;
+    font-family: Inter, sans-serif;
+  }
+  .heading {
+    margin-top: 20px;
+    color: #0d2235;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5em;
+    font-family: Inter, sans-serif;
+  }
+  .para {
+    color: #767d86;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .card {
+    margin-top: 3rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    position: relative;
+    padding: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    min-height: 440px;
+    border: 3px solid transparent;
+    box-shadow: 0 1rem 2rem hsla(0, 0%, 70.6%, 0.2);
+    transition: all 0.3s;
+    font-family: Inter, sans-serif;
+    line-height: 24px;
+    color: #767d86;
+  }
+  
+  .card:hover{
+      border: 3px solid #49a0eb;
+  }
+  
+  .subheader {
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 500;
+    color:#0d3344;
+    font-family: Inter, sans-serif;
+    line-height: 2rem;
+  }
+  
+  .cardheader{
+      color: #49a0eb;
+      font-weight: 600;
+      font-size: 2.5rem;
+      line-height: 2.5rem;
+      padding-bottom: 2rem;
+  }
+  
+  @media only screen and (max-width: 700px) {
+      .header {
+        font-weight: 700;
+        font-size: 24px;
+      }
+      .subheading{
+        font-weight: 400;
+        font-size: 20px;
+      }
+    }
+  
+  
+  @media screen and (min-width: 800px) {
+    .trio {
+      margin-bottom: 1rem;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 2rem;
+      align-items: center;
+      display: flex;
+    }
+  }
+  

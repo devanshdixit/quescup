@@ -4,6 +4,8 @@ import HowItWorks from "../components/Howitworks";
 import ModalScreen from "../components/modal";
 import Header from "../components/Navbar";
 import Slider from "../components/Slider";
+import TrustedCampaigns from "../components/Trustedcampaigns";
+import WhatWeProvide from "../components/Whatweprovide";
 import Whyus from "../components/Whyus";
 
 export default function Home() {
@@ -19,6 +21,8 @@ export default function Home() {
       <Header/>
       <Slider />
       <Whyus/>
+      <WhatWeProvide/>
+      <TrustedCampaigns/>
       <HowItWorks/>
       <ModalScreen/>
       <Footer/>

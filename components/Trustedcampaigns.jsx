@@ -1,0 +1,65 @@
+/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
+import { Card } from "react-bootstrap";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import styles from "../styles/TrustedCampaigns.module.css"
+
+const TrustedCampaigns = () => {
+    const responsive = {
+        desktop: {
+            breakpoint: { max: 3000, min: 1024 },
+            items: 3,
+            paritialVisibilityGutter: 60
+        },
+        tablet: {
+            breakpoint: { max: 1024, min: 464 },
+            items: 2,
+            paritialVisibilityGutter: 50
+        },
+        mobile: {
+            breakpoint: { max: 464, min: 0 },
+            items: 1,
+            paritialVisibilityGutter: 30
+        }
+    };
+    const images = [
+        "https://images.unsplash.com/photo-1549989476-69a92fa57c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1549396535-c11d5c55b9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1550133730-695473e544be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1550167164-1b67c2be3973?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1550338861-b7cfeaf8ffd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1550223640-23097fc71cb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1550353175-a3611868086b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1550330039-a54e15ed9d33?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1549737328-8b9f3252b927?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1549833284-6a7df91c1f65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1549985908-597a09ef0a7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1550064824-8f993041ffd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+    ];
+    return (
+        <div className="container  pt-4 pb-4" id="campaigns" style={{marginBottom:"100px",marginTop:"100px"}} >
+            <h1 className={styles.header}>Trusted Campaigns</h1>
+            <hr className={styles.hr} />
+            <Carousel
+                ssr
+                partialVisbile
+                itemClass="image-item"
+                responsive={responsive}
+                className="mb-4 mt-4"
+            >
+                {images.slice(0, 5).map((image, index) => {
+                    return (
+                        <Card key={index} className="m-3 shadow border border-dark p-2">
+                            <h4>Campaign {index}</h4>
+                            <p>Total Donations: $145</p>
+                            <p>Trust Index: 3/5</p>
+                            <button className="btn btn-outline-dark">Read More</button>
+                        </Card>
+                    );
+                })}
+            </Carousel>
+        </div>
+    )
+}
+export default TrustedCampaigns
