@@ -102,11 +102,11 @@ export default function ModalScreen() {
 
     return (
         <section id="contact" className="container" style={{ paddingBottom: "100px", paddingTop: "100px" }}>
-            <h1 className={styles.header}>Tell us about the Campaign here</h1>
+            <h1 className={styles.header}>Do You Have a Query?</h1>
             <hr className={styles.hr} />
             <div className="text-center  ml-1 mr-1 mt-4 pt-4">
                 <Button variant="primary" size="lg" onClick={handleShow}>
-                    Click Here!
+                    ASK ME
                 </Button>
             </div>
             <Modal
