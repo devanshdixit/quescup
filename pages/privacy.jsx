@@ -1,7 +1,7 @@
 import Head from "next/head"
 import Footer from "../components/Footer"
 import Header from "../components/Navbar"
-import PrivacyPolicy from "../components/privacyPolicy"
+import PrivacyPolicy from "../components/PrivacyPolicy"
 
 const Privacy = () => {
     return (
