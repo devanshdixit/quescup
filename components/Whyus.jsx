@@ -70,7 +70,7 @@ const Whyus = () => {
           <div><img src="/images/whyus/interview.svg" alt="" /></div>
           <div className={styles.subheading}>Support Trusted Campaigns</div>
           <p className={styles.para}>
-            QUESCUP only supports those campaign who actually are in need of help and also make sure that the campaigner meets his needs.
+            QUESCUP only supports those campaign who are actually in need of help and also make sure that the campaigner meets his needs.
           </p>
         </div>
       </div>
