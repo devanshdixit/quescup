@@ -4,7 +4,7 @@ import styles from "../styles/Whyus.module.css"
 const Whyus = () => {
   return (
     <div className="container mt-4 pt-4 mb-4 pb-4" id="about">
-      <h1 className={styles.header}>Why Quecup?</h1>
+      <h1 className={styles.header}>Why Quescup?</h1>
       <hr className={styles.hr} />
       <div className="container text-center">
         <p className={styles.para}><strong>QUESCUP is the only platform which choses to stand with honesty and trust, we support Donors and Campaigners who seek to help.</strong>
@@ -70,8 +70,7 @@ const Whyus = () => {
           <div><img src="/images/whyus/interview.svg" alt="" /></div>
           <div className={styles.subheading}>Support Trusted Campaigns</div>
           <p className={styles.para}>
-            QUESCUP only supports those campaign who actually are in need help and also make sure that the campaigner meets his needs.
-
+            QUESCUP only supports those campaign who actually are in need of help and also make sure that the campaigner meets his needs.
           </p>
         </div>
       </div>
