@@ -138,7 +138,7 @@ export default function ModalScreen() {
                             <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
                         </Form.Group>
                         <Form.Group className="mt-3" controlId="validationCustom03">
-                            <Form.Label>Enter EmailId :</Form.Label>
+                            <Form.Label>Enter Email Id :</Form.Label>
                             <Form.Control
                                 type="text"
                                 placeholder="Enter EmailId"

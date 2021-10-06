@@ -7,10 +7,10 @@ const Whyus = () => {
       <h1 className={styles.header}>Why Quescup?</h1>
       <hr className={styles.hr} />
       <div className="container text-center">
-        <p className={styles.para}><strong>QUESCUP is the only platform which choses to stand with honesty and trust, we support Donors and Campaigners who seek to help.</strong>
+        <p className={styles.para}><strong>QUESCUP is the only platform which prefer to stand with honesty and trust, we support Donors and Campaigners who seek to help.</strong>
         </p>
         <p className={styles.para}>
-          <strong>QUSECUP stands with you to solve any query that you may have about crowdfunding.</strong>
+          <strong>QUESCUP stands with you to solve any query that you may have about crowdfunding.</strong>
         </p>
         <p className={styles.para}><strong>Our goal is to keep away fraudulent people and support those who are actually in need.</strong>
         </p>
@@ -37,7 +37,7 @@ const Whyus = () => {
           <div><img src="/images/whyus/hill.svg" alt="" /></div>
           <div className={styles.subheading}>How the donation is used</div>
           <p className={styles.para}>
-            QUSECUP assures that all the queries regarding donation will be solved, i.e.,
+            QUESCUP assures that all the queries regarding donation will be solved, i.e.,
             <p className={styles.para}>- Is the donated money  used for proper cause</p>
             <p className={styles.para}>- Whether your money is reached to particular campaign </p>
             <p className={styles.para}>- Is the donated money going to the particular person who is really in need of help</p>
